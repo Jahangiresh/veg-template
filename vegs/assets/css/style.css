@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 200vh;
+}
+.imagebox{
+    width: 100%;
+    height: 100vh;
+   
+  
+}
+.imagebox img{
+    width: 100%;
+    filter:sepia(30%);
+    background-attachment: fixed;
+   margin-top: 5%;
+}
+.header{
+        top:0;
+    position: absolute;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color:olive
+}
+.header h1{
+    
+    padding: 20px 20px;
+}
+.navbar{
+    position: absolute;
+    color: olive;
+    top: 0;
+
+left: 30%;
+
+}
+.navbar li{
+    margin-top: 2%;
+ 
+    padding: 20px 20px;
+    display: inline-block;
+}
+.icon{
+    position: absolute;
+   
+   top: 16%;
+   padding: 16px 20px;
+   left: 88%;
+   font-size: 20px;
+ 
+}
+.slogan{
+    position:absolute;
+  top:50%;
+   color: white;
+   ;
+  background-color: rgba(0, 0, 0, 0.459);
+}
+.slogan p{
+    font-size: 30px;
+
+}
+.slogan h1{
+    font-size: 40px;
+}
+.slogan h2{
+    margin-left: 70%;
+font-size: 40px;
+opacity: 0;
+transition: 0.3s linear;
+}
+.slogan:hover.slogan h2{
+     opacity: 1;
+}
+.order{
+    position: absolute;
+    
+   padding: 40px 60px;
+    top:99%;
+    left: 36%;
+}
+.order button{
+    padding: 26px 60px;
+    border: 1px solid ;
+    background-color: transparent;
+    color: white;
+    transition: 0.3s linear;
+}
+.order button:hover{
+background-color: white;
+color:black;
+border:none;
+}
+.body{
+    width: 100%; 
+    height: 2000px;
+    background-color: red;
+
+}
+
+.body .slogan2{
+    padding-top: 4%;
+    text-align: center;
+
+}
+.body .slogan2 p{
+    color:gray
+}
+.imagebox1{
+    background-color: green;
+    width: 1200px;
+    height:100vh;
+    margin: 0 auto;
+    
+}
+.smallbox{
+    display: inline-block;
+    width:400px ;
+    background-color: yellow;
+    height: 50vh;
+}
+.smallbox2{
+    display: inline-block;
+    width:400px ;
+    background-color: rosybrown;
+    height: 50vh;
+    
+}
+.smallbox3{
+    display: inline-block;
+    width:400px ;
+    background-color: white;
+    height: 50vh;
+    left: 400px;
+}
